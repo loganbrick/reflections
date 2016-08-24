@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+FC was useful in showing me lines that changed, but it wasn't very obvious where the spelling error was. Certainly it was faster than comparing the two files by eye, but it was not quite "scan to find it" easy.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Sometimes changes to a malfunctioning program only succeed in breaking it more than the original changes were meant to fix. In that case, it's helpful to take a step back to a previously working version. Similarly, comparing changes between versions to seek out typos and new errors introduced during editing.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Choosing when to commit allows the programmer to keep track of the size of his or her commits, it also allows them to control the logic boundaries of the commits. Unfortunately, if a programmer has a lapse in judgement and neglects to commit frequently enough, the entire commit structure isn't very helpful when it comes to comparing different entries.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Different usages, mostly. Google Docs for single-editing, and for the most part, that makes sense for Google Docs. Most spreadsheets don't link intimately with eachother, so a change to one usually has no effect on the other. Code files are different, often depending entirely on the behavior of another to work properly. Git is designed so that users are able to see the changes on all files at all commit times.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log displays a log of all of the commits a git repo has had. git diff along with two or more commit IDs will compare those commits and highlight the differences between them.
+
+How might using version control make you more confident to make changes that could break something?
+
+Version control makes a programmer feel more confident that no matter what the new commit changes, the code base will never be more broken than it was previously.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I intend to use Git to stay more organized and become more efficient when bug fixing and implementing changes. Change control will allow me to quickly compare versions and pinpoint bugs and errors.
