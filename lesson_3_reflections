@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+It's useful to have a remote repository for many reasons. One is if you'll be moving around from computer to computer, it's far easier to download work from GitHub than it is to cart it around with you. Another reason is that GitHub backs up the remote repository, and can save quite a lot of work in the event of a data-loss crash.
+
