@@ -5,3 +5,19 @@ It's useful to have a remote repository for many reasons. One is if you'll be mo
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 The programmer may just want to keep some experimental changes private until completion before pushing it to the remote repository--it's yet another layer of version control.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are used to have GitHub clone a repository into a programmer's repository so that they can work on repositories they do not have permission to. Clones are similar to forks in that it's a copy of a repository, but it does not attribute the clone to the original developer. Branches are simply divisions of a repository for new code to become worked on and compared to other branches.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A programmer has a working copy to revert to if ever something bad happens to their local storage, or if they decide recent local changes are unacceptable.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I'd probably collaborate using a file sharing service. In that case, it would be easier in the sense that we wouldn't have to learn how GitHub works, but harder in virtually all other scenarios. It is far better to use GitHub so that files can be worked on simultaneously and so that changes are made obvious.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A programmer regularly wants to make all changes outside of master and merge back in when finished. Making all changes in master is simpler and takes less organizational skills, but it can reall mess with the integrity of the master branch--it can make the branch go from a strong working core to a buggy untested mess.
